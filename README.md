@@ -1,4 +1,3 @@
-# Map-Automation
 #This is a set of codes to prepare multiple maps from a shapefile. The shapefile contain 35 polygons and for each polygon, map created using simple coding.
 #this code can be used in Visual Studio, JupyterNotebook etc.
 
@@ -8,7 +7,7 @@ import matplotlib.pyplot as plt
 import os
 import re
 
-# file paths
+#paths----
 shapefile_path = r"D:\temp\temp10\India.shp"
 output_directory = r"D:\temp\temp10\output_maps"
 
@@ -17,8 +16,7 @@ print(gdf.columns)
 
 if not os.path.exists(output_directory):
     os.makedirs(output_directory)
-
-# Loop 
+#loop---
 for i in range(2, 35):
     selected_identifier = i
     selected_polygon = gdf[gdf['ID1'] == selected_identifier]

@@ -1,5 +1,6 @@
 # Map-Automation
-This is a set of code to prepare multiple maps from a shapefile. The shapefile contains 35 polygons and for each polygon, map created using simple coding.
-GIS shapefile is added with this code.
-Visual Studio can be used to do this process.
-this shapefile contain indian states. it will prepare map for each state using simple set of codes
+This is a simple experimental code to make multiple maps at the same time.
+I have a shapefile of Indian States. I made all the state maps in a single set of code.
+Python used. (Geopandas and matplotlib)
+It takes 10 seconds to prepare Many maps.
+Visual Studio or Jupyter Notebook are the platforms I prefer for these codes.

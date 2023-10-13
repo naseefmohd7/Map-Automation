@@ -8,8 +8,8 @@ import os
 import re
 
 #paths----
-shapefile_path = r"D:\temp\temp10\India.shp"
-output_directory = r"D:\temp\temp10\output_maps"
+shapefile_path = r"D:Shapefile\India.shp"
+output_directory = r"D:Shapefile\Indian_States_Maps"
 
 gdf = gpd.read_file(shapefile_path)
 print(gdf.columns)
